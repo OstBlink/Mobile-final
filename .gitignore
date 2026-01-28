@@ -1,0 +1,56 @@
+# --- Dart/Flutter ---
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+build/
+# (если есть coverage)
+coverage/
+
+# --- IntelliJ / Android Studio ---
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# --- VS Code (если вдруг) ---
+.vscode/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Android ---
+android/.gradle/
+android/local.properties
+android/**/GeneratedPluginRegistrant.java
+
+# --- iOS / macOS ---
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/ephemeral/
+ios/Runner/GeneratedPluginRegistrant.*
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata/
+
+macos/Pods/
+macos/Flutter/ephemeral/
+macos/Runner/GeneratedPluginRegistrant.*
+*.xcuserstate
+*.xcuserdata/
+
+# --- Web ---
+# Обычно ничего не нужно, но если генерируете:
+# web/.dart_tool/
+
+# --- Linux/Windows builds (если собираете локально) ---
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
